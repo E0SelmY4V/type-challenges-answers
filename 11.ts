@@ -1,0 +1,1 @@
+type TupleToObject<T extends readonly (string | number | symbol)[]> = { [I in T[number]]: I }
